@@ -9,6 +9,6 @@
         "**/__pycache__": true,
         "**/__init__.py": true
     },
-    "python.defaultInterpreterPath": "venv\\Scripts\\python.exe",
+    "python.defaultInterpreterPath": "venv/Scripts/python.exe",
     "python.terminal.activateEnvironment": true,
 }

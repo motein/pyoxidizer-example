@@ -1,0 +1,6 @@
+{
+    "lint": {
+      "disable": ["no-docstring"]
+    }
+  }
+  
