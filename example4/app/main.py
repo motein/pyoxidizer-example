@@ -2,6 +2,8 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QSplitter, QSplitterHandle, QWidget, QVBoxLayout, QLabel
 from PyQt5.QtCore import Qt
 
+import qdarkstyle
+
 from corelib.tools import callMe
 
 class CustomSplitter(QSplitter):
@@ -87,6 +89,8 @@ class MainWindow(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    dark_stylesheet = qdarkstyle.load_stylesheet_pyqt5()
+    app.setStyleSheet(dark_stylesheet)
     window = MainWindow()
     window.show()
     sys.exit(app.exec_())
