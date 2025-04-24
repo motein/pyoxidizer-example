@@ -25,7 +25,7 @@ nuitka_command = [
     f"--windows-icon-from-ico={ICON_FILE}",
     "--nofollow-import-to=tests",
     "--show-progress",
-    "--disable-console"
+    "--windows-console-mode=disable"
 ]
 
 # 执行打包
